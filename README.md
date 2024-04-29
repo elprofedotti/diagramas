@@ -3,7 +3,7 @@
 ## Lista de compras
 ```mermaid
 graph TD;
-    A[Inicio] --> B{¿Lista lista?}
+    A[Inicio] --> B{¿Lista completa?}
     B -->|No| C[Anadir item a la lista]
     C --> B
     B -->|Si| D[Ir de compras]
